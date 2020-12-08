@@ -409,7 +409,7 @@ When a page which uses the `ChartComponent` is requested, the `charting-library-
 
 </details>
 
-## Bundle Analysis
+## Bundle Analysis bundle 分析
 
 一旦开始分割代码，分析输出来检查模块在哪里结束将很有用。官方分析工具是一个很好的入门。下面是一些社区支持(community-supported)的可选工具：
 
@@ -440,7 +440,7 @@ Once you start splitting your code, it can be useful to analyze the output to ch
 See Lazy Loading for a more concrete example of how can be used in a real application and Caching to learn how to split code more effectively.
 </details>
 
-## Further Reading
+## Further Reading 扩展阅读
 
 - [`<link rel=”prefetch/preload”>` in webpack](https://medium.com/webpack/link-rel-prefetch-preload-in-webpack-51a52358f84c)
 - [Preload, Prefetch And Priorities in Chrome](https://medium.com/reloading/preload-prefetch-and-priorities-in-chrome-776165961bbf)
