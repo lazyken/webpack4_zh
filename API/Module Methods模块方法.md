@@ -73,7 +73,9 @@ export default {
 };
 ```
 
-<h3 id="#import-1"><code>import()</code> 动态加载模块</h3>
+### `import()` 动态加载模块
+
+<a id="#import-1"></a>
 
 `function(string path):Promise`
 
@@ -140,7 +142,9 @@ import(`./locale/${language}.json`).then((module) => {
 
 </details>
 
-<h2 id="magic-comments">Magic Comments / 魔法注释</h2>
+## Magic Comments / 魔法注释
+
+<a id="magic-comments"></a>
 
 内联注释可以完成一些特定工作。可以通过给 import 添加注释来做一些事情，比如为 chunk 命名或选择不同的模式。下面的代码展示了支持的魔法注释的完整列表，及解释这些注释的作用。
 
