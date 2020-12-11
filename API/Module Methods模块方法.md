@@ -73,7 +73,7 @@ export default {
 };
 ```
 
-### `import()` 动态加载模块 <a href="#import-1"></a>
+### `import()` 动态加载模块 <a id="#import-1"></a>
 
 `function(string path):Promise`
 
@@ -626,7 +626,7 @@ context('localeA').then((locale) => {
 <details>
 <summary>英文</summary>
 
-The full list of available modes and its behavior is described in [import()]() documentation.
+The full list of available modes and its behavior is described in [import()](https://github.com/lazyken/webpack4_zh/blob/main/API/Module%20Methods%E6%A8%A1%E5%9D%97%E6%96%B9%E6%B3%95.md/#import-1) documentation.
 
 </details>
 
