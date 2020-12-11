@@ -131,12 +131,12 @@ import(`./locale/${language}.json`).then((module) => {
 });
 ```
 
-> 使用 [`webpackInclude` 和 `webpackExclude`](#Magic-Comments-/-魔法注释) 选项可让您通过添加正则表达式，来减少 webpack 打包的文件数量。（具体参考下方的[**魔法注释**](#Magic-Comments-/-魔法注释)）
+> 使用 [`webpackInclude` 和 `webpackExclude`](#Magic Comments / 魔法注释) 选项可让您通过添加正则表达式，来减少 webpack 打包的文件数量。（具体参考下方的[**魔法注释**](#Magic Comments / 魔法注释)）
 
 <details>
 <summary>英文</summary>
 
-> Using the [`webpackInclude` and `webpackExclude`](#Magic-Comments-/-魔法注释) options allows you to add regex patterns that reduce the number of files that webpack will bundle for this import.
+> Using the [`webpackInclude` and `webpackExclude`](#Magic Comments / 魔法注释) options allows you to add regex patterns that reduce the number of files that webpack will bundle for this import.
 
 </details>
 
