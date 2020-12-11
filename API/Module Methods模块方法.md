@@ -73,7 +73,7 @@ export default {
 };
 ```
 
-### `import()` 动态加载模块
+### `import()` 动态加载模块 <a href="#import-1"></a>
 
 `function(string path):Promise`
 
@@ -131,16 +131,16 @@ import(`./locale/${language}.json`).then((module) => {
 });
 ```
 
-> 使用 [`webpackInclude` 和 `webpackExclude`](#magic-comments) 选项可让您通过添加正则表达式，来减少 webpack 打包的文件数量。（具体参考下方的[**魔法注释**](#magic-comments)）
+> 使用 [`webpackInclude` 和 `webpackExclude`](https://github.com/lazyken/webpack4_zh/blob/main/API/Module%20Methods%E6%A8%A1%E5%9D%97%E6%96%B9%E6%B3%95.md#magic-comments) 选项可让您通过添加正则表达式，来减少 webpack 打包的文件数量。（具体参考下方的[**魔法注释**](https://github.com/lazyken/webpack4_zh/blob/main/API/Module%20Methods%E6%A8%A1%E5%9D%97%E6%96%B9%E6%B3%95.md#magic-comments)）
 
 <details>
 <summary>英文</summary>
 
-> Using the [`webpackInclude` and `webpackExclude`](https://v4.webpack.js.org/api/module-methods/#magic-comments) options allows you to add regex patterns that reduce the number of files that webpack will bundle for this import.
+> Using the [`webpackInclude` and `webpackExclude`](https://github.com/lazyken/webpack4_zh/blob/main/API/Module%20Methods%E6%A8%A1%E5%9D%97%E6%96%B9%E6%B3%95.md#magic-comments) options allows you to add regex patterns that reduce the number of files that webpack will bundle for this import.
 
 </details>
 
-<h2 id="magic-comments">Magic Comments / 魔法注释</h2>
+## Magic Comments / 魔法注释 <a id="magic-comments"></a>
 
 内联注释可以完成一些特定工作。可以通过给 import 添加注释来做一些事情，比如为 chunk 命名或选择不同的模式。下面的代码展示了支持的魔法注释的完整列表，及解释这些注释的作用。
 
@@ -621,7 +621,7 @@ context('localeA').then((locale) => {
 });
 ```
 
-可用模式及其行为的完整列表在 [`import()`](https://v4.webpack.js.org/api/module-methods/#import-1) 文档中进行了描述。
+可用模式及其行为的完整列表在 [`import()`](https://github.com/lazyken/webpack4_zh/blob/main/API/Module%20Methods%E6%A8%A1%E5%9D%97%E6%96%B9%E6%B3%95.md/#import-1) 文档中进行了描述。
 
 <details>
 <summary>英文</summary>
