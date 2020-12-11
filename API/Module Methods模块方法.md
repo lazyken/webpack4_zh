@@ -73,7 +73,7 @@ export default {
 };
 ```
 
-<h3 id="import-1"><code>`import()`</code>动态加载模块</h3>
+### `import()` 动态加载模块
 
 `function(string path):Promise`
 
@@ -621,12 +621,12 @@ context('localeA').then((locale) => {
 });
 ```
 
-可用模式及其行为的完整列表在 [`import()`](#import-1) 文档中进行了描述。
+可用模式及其行为的完整列表在 [`import()`](#import-动态加载模块) 文档中进行了描述。
 
 <details>
 <summary>英文</summary>
 
-The full list of available modes and its behavior is described in [import()](#import-1) documentation.
+The full list of available modes and its behavior is described in [import()](#import-动态加载模块) documentation.
 
 </details>
 
