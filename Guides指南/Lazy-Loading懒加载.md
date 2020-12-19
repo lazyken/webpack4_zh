@@ -123,10 +123,10 @@ Many frameworks and libraries have their own recommendations on how this should 
 
 </details>
 
-- React: Code Splitting and Lazy Loading
-- Vue: Lazy Load in Vue using Webpack's code splitting
-- Angular: Lazy Loading route configuration
-- AngularJS: AngularJS + Webpack = lazyLoad by @var_bincom
+- React: [Code Splitting and Lazy Loading](https://reacttraining.com/react-router/web/guides/code-splitting)
+- Vue: [Lazy Load in Vue using Webpack's code splitting](https://alexjoverm.github.io/2017/07/16/Lazy-load-in-Vue-using-Webpack-s-code-splitting/)
+- Angular: [Lazy Loading route configuration](https://angular.io/guide/router#milestone-6-asynchronous-routing)
+- AngularJS: [AngularJS + Webpack = lazyLoad](https://medium.com/@var_bin/angularjs-webpack-lazyload-bb7977f390dd) by [@var_bincom](https://twitter.com/var_bincom)
 
 ## Further Reading 扩展阅读
 
